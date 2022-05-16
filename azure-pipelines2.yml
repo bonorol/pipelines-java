@@ -10,7 +10,7 @@ strategy:
   matrix:
     linux:
       imageName: "ubuntu-latest"
-      jdkVersion: "1.10"
+      jdkVersion: "1.12"
     windows:
       imageName: "windows-latest"
       jdkVersion: "1.11"
