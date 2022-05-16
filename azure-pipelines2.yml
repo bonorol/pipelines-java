@@ -10,22 +10,19 @@ strategy:
   matrix:
     linux:
       imageName: "ubuntu-latest"
+      jdkVersion: "1.10"
     mac:
       imageName: "macOS-latest"
+      jdkVersion: "1.10"
     windows:
       imageName: "windows-latest"
+      jdkVersion: "1.11"
+  
   maxParallel: 3
 
 pool:
   vmImage: $(imageName)
 
-strategy:
-  matrix:
-    jdk10:
-      jdkVersion: "1.10"
-    jdk11:
-      jdkVersion: "1.11"
-  maxParallel: 2
 
 steps:
 - task: Maven@3
