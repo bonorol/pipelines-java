@@ -1,4 +1,4 @@
-
+[![Build Status](https://dev.azure.com/dhoh/PartsUnlimited/_apis/build/status/bonorol.pipelines-java?branchName=master)](https://dev.azure.com/dhoh/PartsUnlimited/_build/latest?definitionId=9&branchName=master)
 
 # Contributing23
 
